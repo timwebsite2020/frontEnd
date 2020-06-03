@@ -1,0 +1,53 @@
+<!-- CONTOH TEMPLATE 4 YG SDH SELESAI: indonesiaMain.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="hf.css">
+  <link rel="stylesheet" href="sub4.css">
+</head>
+
+<body>
+  <a href="main.html">
+    <img src="icons/home.png" id="home">
+  </a>
+  <div id="header">
+    <img src="icons/kbri.jpg" id="kbri">
+    <h1></h1>
+  </div>
+  <div id="subheader">
+    <h2>INSERT H2</h2>
+    <!-- silahkan buat subheading baru dengan memasukkan tag <h2~6> -->
+  </div>
+  <div id="template">
+    <!-- image tolong dimasukkan kedalam folder icons -->
+    <div class="hexagon [png_image1_name]" id="hex1" onmouseover="withmouse(0);" onmouseout="withoutmouse(0);">
+      <img class="icons" src="icons/[png_image1_name].png">
+    </div>
+    <div class="hexagon [png_image2_name]" id="hex2" onmouseover="withmouse(1);" onmouseout="withoutmouse(1);">
+      <img class="icons" src="icons/[png_image2_name].png">
+    </div>
+    <div class="hexagon [png_image3_name]" id="hex3" onmouseover="withmouse(2);" onmouseout="withoutmouse(2);">
+      <img class="icons" src="icons/[png_image3_name].png">
+    </div>
+    <div class="hexagon [png_image4_name]" id="hex4" onmouseover="withmouse(3);" onmouseout="withoutmouse(3);">
+      <img class="icons" src="icons/[png_image4_name].png">
+    </div>
+    <p id="footer"></p>
+  </div>
+  <script src="main.js"></script>
+  <script>
+    //obyek yg berisi nama gambar dan teks untuk masing2 gambar
+    var sampleData = [
+      { "name": "[png_image1_name]", "message": "[message1]" },
+      { "name": "[png_image2_name]", "message": "[message2]" },
+      { "name": "[png_image3_name]", "message": "[message3]" },
+      { "name": "[png_image4_name]", "message": "[message4]" }
+    ];
+  </script>
+</body>
+
+</html>

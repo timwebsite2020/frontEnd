@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="hf.css">
+</head>
+
+<body>
+  <div id="header">
+    <img src="icons/kbri.jpg" id="kbri">
+    <h1></h1>
+  </div>
+  <!-- <div id="subheader">
+    <h2>EKONOMI INDONESIA SANGAT INDAH</h2>
+    <h3>whatsup</h3>
+  </div> -->
+  <div id="template">
+    <div class="hexagon main_indonesia" id="hex1" onmouseover="withmouse(0);" onmouseout="withoutmouse(0);"
+      onclick="window.location.href='indonesiaMain.html';">
+      <img class="icons" src="icons/main_indonesia.png">
+      <!-- <p class="text"></p> -->
+    </div>
+    <div class="hexagon main_japan" id="hex2" onclick="window.location.href='japanMain.html';"
+      onmouseover="withmouse(1);" onmouseout="withoutmouse(1);">
+      <img class="icons" src="icons/main_japan.png">
+      <!-- <p class="text"></p> -->
+    </div>
+
+    <div class="hexagon main_showcase" id="hex3" onmouseover="withmouse(2);" onmouseout="withoutmouse(2);">
+      <img class="icons" src="icons/main_showcase.png">
+      <!-- <p class="text"></p> -->
+    </div>
+    <div class="hexagon main_iru" id="hex4" onmouseover="withmouse(3);" onmouseout="withoutmouse(3);">
+      <img class="icons" src="icons/main_IRU.png">
+      <!-- <p class="text"></p> -->
+    </div>
+
+    <div class="hexagon main_faq" id="hex5" onmouseover="withmouse(4);" onmouseout="withoutmouse(4);">
+      <img class="icons" src="icons/main_FAQ.png">
+      <!-- <p class="text"></p> -->
+    </div>
+    <div class="hexagon main_bank" id="hex6" onmouseover="withmouse(5);" onmouseout="withoutmouse(5);">
+      <img class="icons" src="icons/main_bank.png">
+      <!-- <p class="text"></p> -->
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script>
+    var sampleData = [
+      { "name": "main_indonesia", "message": "UPDATE EKONOMI INDONESIA" },
+      { "name": "main_japan", "message": "DATA EKONOMI JEPANG" },
+      { "name": "main_showcase", "message": "SHOWCASE" },
+      { "name": "main_iru", "message": "UNIT HUBUNGAN INVESTOR" },
+      { "name": "main_faq", "message": "FAQ & LINKS" },
+      { "name": "main_bank", "message": "DATA KEBIJAKAN BANK" }
+    ];
+  </script>
+</body>
+
+</html>

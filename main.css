@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* body{
+  font-family: 'Roboto';
+} */
+
+
+
+.icons{
+  position: absolute;
+  width:  148px;
+  height: 148px;
+  /* margin: 0px 0px 1000px 34px; */
+  left: 34px; 
+  bottom: -20px; 
+  
+  z-index: 1;
+}
+
+#hex1{
+  position: absolute;
+  margin: 225px 746px 583px 478px; 
+}
+
+#hex2{
+  position: absolute;
+  margin: 225px 491px 583px 733px;
+}
+
+#hex3{
+  position: absolute;
+  margin: 404px 366px 404px 858px;
+}
+
+#hex4{
+  position: absolute;
+  margin: 590px 491px 218px 733px;
+}
+
+#hex5{
+  position: absolute;
+  margin: 590px 746px 218px 478px;
+}
+
+#hex6{
+  position: absolute;
+  margin: 404px 874px 404px 350px;
+}
+
+.hexagon {
+  position: relative;
+  width: 216px; 
+  height: 91.3px;
+  background-color: #224480;
+  margin: 62.35px 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  /* font-size: 30px; */
+  text-align: center;
+  /* font-family: 'Roboto'; */
+}
+
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 108px solid transparent;
+  border-right: 108px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 62.35px solid #224480;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 62.35px solid #224480;
+}
+
+.hover{
+  opacity: 0.5;
+}

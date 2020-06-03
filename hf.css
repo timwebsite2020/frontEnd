@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#home{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 19px 1343px 941px 33px;
+  /* justify-self: left; */
+  /* align-self: left;*/
+}
+
+#header{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 59px; */
+  margin: 0 auto;
+  width: 1440px;
+}
+
+#kbri{
+  position: relative;
+  width: 130px;
+  height: 130px;
+  /* left: 216px;
+  bottom: 894px; */
+}
+
+h1::after{
+  position: relative;
+  /* left: 388px;
+  right: 316px;
+  bottom: 937px;
+  top: 45px; */
+  text-align: left;
+  font-weight: 700;
+  font-size: 36px;
+  /* margin: 45px 316px 937px 388px; */
+  /* width: 850px; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  content: "DASHBOARD EKONOMI INDONESIA - JEPANG";
+}
+
+/* h2{
+  position: absolute;  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 39px;
+  margin: 142px 539px 845px 581px;
+  text-align: left;
+  padding-top: 0px;
+  width: 850px;
+  bottom: 20px;
+} */
+
+#subheader{
+  position: relative;
+  /* top: 59px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 100px; */
+  flex-direction: column;
+  /* font-weight: 700;*/
+  /* font-size: 30px;  */
+  line-height: 0px;
+  color: #47525E;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+#template{
+  position: relative;
+  /* display: flex; */
+  /* justify-content: center; */
+  width: 1440px;
+  height: 1024px;
+  /* display: inline-block; */
+  margin: 0 auto;
+  top: -135px;
+}
+
+#footer::after{
+  position: absolute;
+  content: "DASHBOARD EKONOMI INDONESIA -JEPANG";
+  margin: 970px 39px 25px 893px;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: #47525E;
+}

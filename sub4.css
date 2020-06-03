@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* body{
+  font-family: 'Roboto';
+} */
+
+#hex1{
+  position: absolute;
+  margin: 310.63px 667.35px 477.52px 542.14px;
+}
+
+#hex2{
+  position: absolute;
+  margin: 304px 414px 484.15px 795.49px;
+}
+
+#hex3{
+  position: absolute;
+  margin: 508.15px 795.49px 280px 414px;
+}
+
+#hex4{
+  position: absolute;
+  margin: 508.15px 529.63px 280px 679.86px;
+}
+
+.hexagon {
+  position: relative;
+  width: 230.51px; 
+  height: 102.77px;
+  background-color: #224480;
+  margin: 66.54px 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  /* font-family: 'Roboto'; */
+}
+
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 115.255px solid transparent;
+  border-right: 115.255px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 66.54px solid #224480;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 66.54px solid #224480;
+}
+/* .hexagon:hover{
+  opacity: 0.5;
+} */
+
+.icons{
+  position: absolute;
+  width:  148px;
+  height: 148px;
+  /* margin: 0px 0px 1000px 34px; */
+  left: 34px; 
+  bottom: -20px; 
+  z-index: 1;
+}
+
+.hover{
+  opacity: 0.5;
+}

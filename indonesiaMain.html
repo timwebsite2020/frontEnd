@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="hf.css">
+  <link rel="stylesheet" href="sub4.css">
+</head>
+
+<body>
+  <a href="main.html">
+    <img src="icons/home.png" id="home">
+  </a>
+  <div id="header">
+    <img src="icons/kbri.jpg" id="kbri">
+    <h1></h1>
+  </div>
+  <div id="subheader">
+    <h2>DATA EKONOMI INDONESIA</h2>
+  </div>
+  <div id="template">
+    <div class="hexagon subpage_perdangan" id="hex1" onmouseover="withmouse(0);" onmouseout="withoutmouse(0);">
+      <img class="icons" src="icons/subpage_perdagangan.png">
+    </div>
+    <div class="hexagon subpage_pariwisata" id="hex2" onmouseover="withmouse(1);" onmouseout="withoutmouse(1);">
+      <img class="icons" src="icons/subpage_pariwisata.png">
+    </div>
+    <div class="hexagon subpage_makro" id="hex3" onmouseover="withmouse(2);" onmouseout="withoutmouse(2);">
+      <img class="icons" src="icons/subpage_makro.png">
+    </div>
+    <div class="hexagon subpage_sdm" id="hex4" onmouseover="withmouse(3);" onmouseout="withoutmouse(3);">
+      <img class="icons" src="icons/subpage_sdm.png">
+    </div>
+    <p id="footer"></p>
+  </div>
+  <script src="main.js"></script>
+  <script>
+    var sampleData = [
+      { "name": "subpage_perdagangan", "message": "PERDAGANGAN" },
+      { "name": "subpage_pariwisata", "message": "PARIWISATA" },
+      { "name": "subpage_makro", "message": "DATA EKONOMI MAKRO" },
+      { "name": "subpage_sdm", "message": "SUMBER DAYA MANUSIA" }
+    ];
+  </script>
+</body>
+
+</html>

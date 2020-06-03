@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* body{
+  font-family: 'Roboto';
+} */
+#hex1{
+  position: absolute;
+  margin: 306px 769px 317px 270px;
+}
+
+#hex2{
+  position: absolute;
+  margin: 306px 255px 317px 784px;
+}
+
+.hexagon {
+  position: relative;
+  width: 401px; 
+  height: 169.48px;
+  background-color: #224480;
+  margin: 115.76px 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  /* font-family: 'Roboto'; */
+}
+
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 200.5px solid transparent;
+  border-right: 200.5px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 115.76px solid #224480;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 115.76px solid #224480;
+}
+.hexagon:hover{
+  opacity: 0.5;
+}
+/* .hover{
+  opacity: 0.5;
+} */
+
