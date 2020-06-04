@@ -6,6 +6,7 @@
   margin: 19px 1343px 941px 33px;
   /* justify-self: left; */
   /* align-self: left;*/
+  z-index: 1;
 }
 
 #header{
