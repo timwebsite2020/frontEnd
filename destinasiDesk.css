@@ -1,0 +1,129 @@
+.subcat{
+  font-size: 28px;
+  margin-top: 195px;
+  margin-left: 368px;
+  color: #47525E;
+  line-height: 0px;
+  font-weight: bolder;
+}
+
+.judul{
+  margin-top: 72px;
+  margin-left: 368px;
+  color: #47525E;
+  font-size: 26px;
+}
+
+.seperator {
+  /* position: relative; */
+  margin-top: 8.5px;
+  margin-left: 353px;
+  border: 1px dashed #343F4B;
+  width: 977.33px;
+}
+.sumber{
+  /* margin-left: 1247px; */
+  text-align: right;
+  margin-right: 96px;
+}
+
+/* iframe{
+  position: relative;
+  margin: 299px 146.21px 136px 242px;
+  margin-top: 70px;
+  margin-left: 242px;
+  width: 1051.79px;
+  height: 589px;
+} */
+
+.paragraph{
+  display: inline-block;
+  position: relative;
+  margin-top: 62.7px;
+  margin-left: 368px;
+  width: 525px;
+  height: 495px;
+  color: #47525E;
+  font-size: 16px;
+  font-weight: 400;
+  /* bottom: 225px;  */
+  
+  
+}
+
+.detailImage{
+  display: inline-block;
+  margin-top: 62.7px;
+  margin-left: 81px;
+  position: absolute;
+  width: 356px;
+  height: 533.68px;
+  /* margin: 389px 110px 101.32px 974px; */
+  /* top: -135px;   */
+}
+
+/* .detailImage{
+  position: absolute;
+  width: 356px;
+  height: 533.68px;
+  margin: 389px 110px 101.32px 974px;
+  top: -135px;  
+} */
+
+.hexagon {
+  position: relative;
+  width: 228px; 
+  height: 96.36px;
+  background-color: #224480;
+  margin: 65.82px 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  /* font-family: 'Roboto'; */
+}
+
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 114px solid transparent;
+  border-right: 114px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 65.82px solid #224480;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 65.82px solid #224480;
+}
+
+#hex1{
+  margin: 431px 1160px 365px 52px;
+  position: absolute;
+}
+
+#up{
+  margin: 100px 1240px 663px 132px;
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  opacity: 0.5;
+}
+
+#down{
+  margin: 793px 1240px 227px 132px;
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  opacity: 0.5;
+}
+
