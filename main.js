@@ -5,13 +5,15 @@ var nameEl;
 function withmouse(x) {
   nameEl = document.querySelector('.' + sampleData[x].name);
   nameEl.classList.add("hover");
-  nameEl.innerHTML = '<p class="text"></p>';
+  nameEl.innerHTML = '';
+  // nameEl.innerHTML = '<p class="text"></p>';
   // hexEl.querySelector(".text").textContent = "bye";
-  nameEl.querySelector(".text").textContent = sampleData[x].message;
+  nameEl.textContent = sampleData[x].message;
 }
 function withoutmouse(x) {
   nameEl = document.querySelector('.' + sampleData[x].name);
   nameEl.classList.remove("hover");
+  name.innerHTML = '';
   nameEl.innerHTML = '<img class="icons" src="icons/' + sampleData[x].name + '.png">';
   // nameEl.querySelector(".text").textContent = '';
 }
