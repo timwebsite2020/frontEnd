@@ -13,7 +13,8 @@ function withmouse(x) {
 function withoutmouse(x) {
   nameEl = document.querySelector('.' + sampleData[x].name);
   nameEl.classList.remove("hover");
-  name.innerHTML = '';
+  nameEl.textContent = '';
+  nameEl.innerHTML = '';
   nameEl.innerHTML = '<img class="icons" src="icons/' + sampleData[x].name + '.png">';
   // nameEl.querySelector(".text").textContent = '';
 }
