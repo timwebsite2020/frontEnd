@@ -1,0 +1,50 @@
+.box{
+  position: absolute;
+  /* width: 300px;
+  height: 300.16px; */
+  /* background-color: lightblue; */
+  line-height: 0px;
+}
+
+.destinasi_img{
+  width: 300px;
+  height: 300px;
+}
+
+#box1{
+  margin: 255px 1004px 469px 136px;
+}
+
+#box2{
+  margin: 255px 570px 468.84px 570px;
+}
+
+#box3{
+  margin: 255px 128px 468.84px 1012px;
+}
+
+#box4{
+  margin: 661px 1004px 62.84px 136px;
+}
+
+#box5{
+  margin: 661px 570px 62.84px 570px;
+}
+
+#box6{
+  margin: 661px 128px 62.84px 1012px;
+}
+
+.text{
+  /* padding: 6px 71px 5px 71px; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #13CE66;
+  bottom: 0px;
+  width: 300px;
+  height: 43px;
+  /* color: red; */
+  
+}
