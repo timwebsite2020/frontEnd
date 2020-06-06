@@ -1,0 +1,31 @@
+#nama{
+  position: relative;
+  margin-top: 195px;
+  margin-left: 368px;
+  font-size: 28px;
+}
+
+#paragraph{
+  display: inline-block;
+  position: relative;
+  margin-top: 42px;
+  margin-left: 205px;
+  width: 400px;
+  height: 540px;
+  text-align: right;
+}
+
+#pic_template{
+  display: inline-block;
+  position: absolute;
+  margin-left: 199px;
+  width: 520px;
+  height: 540px;
+}
+
+.destinasi_pic{
+  display: inline-block;
+  position: relative;
+  width: 220px;
+  height: 180px;
+}
