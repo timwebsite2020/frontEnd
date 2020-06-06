@@ -28,5 +28,5 @@
   position: relative;
   width: 260px;
   height: 180px;
-  vertical-align: top;
+  vertical-align: top; /* getting rid of space underneath images*/
 }
