@@ -26,6 +26,7 @@
 .destinasi_pic{
   display: inline-block;
   position: relative;
-  width: 220px;
+  width: 260px;
   height: 180px;
+  vertical-align: top;
 }
