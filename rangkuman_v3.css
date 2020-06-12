@@ -1,0 +1,47 @@
+/* #nama{
+  position: relative;
+  margin-top: 195px;
+  margin-left: 368px;
+  font-size: 28px;
+}
+
+#paragraph{
+  display: inline-block;
+  position: relative;
+  margin-top: 42px;
+  margin-left: 205px;
+  width: 400px;
+  height: 540px;
+  text-align: right;
+} */
+#update{
+  margin-top: 208px;
+  margin-left: 216px;
+  height: 15px;
+}
+#infobox_container{
+  position: relative;
+  margin-top: 75px;
+  /* height: 180px; */
+  margin-left: 216px;
+}
+.infobox{
+  display: inline-block;
+  position: relative;
+  width: 260px;
+  height: 180px;
+  margin-right: 110px;
+  background-color: #13CE66;
+  vertical-align: top;
+  margin-bottom: 100px;
+}
+
+.infobox_text{
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  /* line-height: 0px; */
+  margin-top: 0px;
+  color: #47525E;
+}
+
