@@ -22,10 +22,17 @@
   position: relative;
   width: 130px;
   height: 130px;
-  /* left: 216px;
-  bottom: 894px; */
+  /* left: 20px; */
+  /* bottom: 894px;  */
 }
 
+#bi{
+  position: relative;
+  width: 119px;
+  height: 102px;
+  margin-left: 20px;
+  /* bottom: 894px;  */
+}
 h1::after{
   position: relative;
   /* left: 388px;
