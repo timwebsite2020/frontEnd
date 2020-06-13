@@ -18,10 +18,21 @@
   margin-top: 208px;
   margin-left: 216px;
   height: 15px;
+  margin-bottom: 62px;
 }
-#infobox_container{
+
+.info_head{
   position: relative;
-  margin-top: 75px;
+  /* margin-top: 62px; */
+  margin-left: 216px;
+  font-size: 24px;
+  margin-bottom: 75px;
+  font-weight: 700;
+}
+
+.infobox_container{
+  position: relative;
+  /* margin-top: 75px; */
   /* height: 180px; */
   margin-left: 216px;
 }
@@ -31,17 +42,27 @@
   width: 260px;
   height: 180px;
   margin-right: 110px;
-  background-color: #13CE66;
+  background-color: #E1E7ED;
   vertical-align: top;
   margin-bottom: 100px;
 }
 
-.infobox_text{
-  text-align: center;
+.infobox_title{
+  text-align: right;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 60px;
   /* line-height: 0px; */
-  margin-top: 0px;
+  margin-top: 18px;
+  margin-bottom: 0px;
   color: #47525E;
+  font-weight: bold;
 }
 
+.infobox_text{
+  text-align: right;
+  font-size: 26px;
+  color: #47525E;
+  font-weight: 700;
+  margin-top: 11px;
+  margin-bottom: 0px;
+}
